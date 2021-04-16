@@ -24,4 +24,12 @@ let contacts = [
   Contact(name: "Peter",    favorite_food: "pizza"),
   Contact(name: "Carlson",    favorite_food: "pizza"),
   Contact(name: "Bob",     favorite_food: "curry"),
+  Contact(name: "Kawasaki",   favorite_food: "pizza"),
+  Contact(name: "Ellon",    favorite_food: "pizza"),
+  Contact(name: "Paul",   favorite_food: "curry"),
+  Contact(name: "Sung",    favorite_food: "pizza"),
+  Contact(name: "Habbakuk",    favorite_food: "pizza"),
+  Contact(name: "Jonny",    favorite_food: "pizza"),
+  Contact(name: "Tim",     favorite_food: "curry"),
+  Contact(name: "Scott",     favorite_food: "curry"),
 ]

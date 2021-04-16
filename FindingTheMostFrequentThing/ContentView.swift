@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         
       the_query()
-      return Text("Hello, world!")
+      return Text("FindingTheMostFrequentThing is here!")
             .padding()
     }
 }
