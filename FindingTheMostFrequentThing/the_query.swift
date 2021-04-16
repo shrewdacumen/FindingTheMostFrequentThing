@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// the log itself.
 func the_query() {
   
   
