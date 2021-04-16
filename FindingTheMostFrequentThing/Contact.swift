@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Contact {
+struct Contact: FavoredFood {
+  
   let name: String
   let favorite_food: String
 }

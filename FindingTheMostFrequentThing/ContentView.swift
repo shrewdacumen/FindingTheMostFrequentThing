@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        
+      the_query()
+      return Text("Hello, world!")
             .padding()
     }
 }

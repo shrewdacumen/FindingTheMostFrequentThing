@@ -9,7 +9,7 @@ import Foundation
 
 
 
-func find_the_favoriteFood_having_the_highest_frequency_v1(fromContacts contacts: [Contact]) -> (favorite_food: String, frequency: Int) {
+func find_the_favoriteFood_having_the_highest_frequency_v1<T: FavoredFood>(fromContacts contacts: [T]) -> (favorite_food: T.TargetSearch, frequency: Int) {
   
   let crossReference = Dictionary(grouping: contacts, by: { $0.favorite_food })
   
@@ -20,11 +20,11 @@ func find_the_favoriteFood_having_the_highest_frequency_v1(fromContacts contacts
 }
 
 
-func find_the_favoriteFood_having_the_highest_frequency_v2(fromContacts contacts: [Contact]) -> (favorite_food: String, frequency: Int) {
+func find_the_favoriteFood_having_the_highest_frequency_v2<T: FavoredFood>(fromContacts contacts: [T]) -> (favorite_food: T.TargetSearch, frequency: Int) {
   
-  let food_list = contacts.map { $0.favorite_food}
+  let food_list = contacts.map { $0.favorite_food }
   
-  var counts: [String: Int] = [:]
+  var counts: [T.TargetSearch: Int] = [:]
 
   for item in food_list {
     
@@ -33,7 +33,7 @@ func find_the_favoriteFood_having_the_highest_frequency_v2(fromContacts contacts
   }
   
   var the_max_count = 0
-  var key_found: String?
+  var key_found: T.TargetSearch?
   var value_found: Int?
   for (key, value) in counts {
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09196D67262953AB00E02FFA /* protocol FavoredFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09196D66262953AB00E02FFA /* protocol FavoredFood.swift */; };
 		094C6C54262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */; };
 		094C6C56262949E300E0FA31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C55262949E300E0FA31 /* ContentView.swift */; };
 		094C6C58262949E800E0FA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094C6C57262949E800E0FA31 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09196D66262953AB00E02FFA /* protocol FavoredFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol FavoredFood.swift"; sourceTree = "<group>"; };
 		094C6C50262949E300E0FA31 /* FindingTheMostFrequentThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingTheMostFrequentThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingTheMostFrequentThingApp.swift; sourceTree = "<group>"; };
 		094C6C55262949E300E0FA31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				094C6C8126294A2000E0FA31 /* Contact.swift */,
 				094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */,
+				09196D66262953AB00E02FFA /* protocol FavoredFood.swift */,
 				094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */,
 				094C6C9426294A9C00E0FA31 /* the_query.swift */,
 				094C6C55262949E300E0FA31 /* ContentView.swift */,
@@ -270,6 +273,7 @@
 			files = (
 				094C6C8226294A2000E0FA31 /* Contact.swift in Sources */,
 				094C6C8726294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift in Sources */,
+				09196D67262953AB00E02FFA /* protocol FavoredFood.swift in Sources */,
 				094C6C56262949E300E0FA31 /* ContentView.swift in Sources */,
 				094C6C9526294A9C00E0FA31 /* the_query.swift in Sources */,
 				094C6C54262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift in Sources */,
