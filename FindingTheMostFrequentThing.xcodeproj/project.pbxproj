@@ -13,6 +13,9 @@
 		094C6C5B262949E800E0FA31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094C6C5A262949E800E0FA31 /* Preview Assets.xcassets */; };
 		094C6C66262949E800E0FA31 /* FindingTheMostFrequentThingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C65262949E800E0FA31 /* FindingTheMostFrequentThingTests.swift */; };
 		094C6C71262949E800E0FA31 /* FindingTheMostFrequentThingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C70262949E800E0FA31 /* FindingTheMostFrequentThingUITests.swift */; };
+		094C6C8226294A2000E0FA31 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C8126294A2000E0FA31 /* Contact.swift */; };
+		094C6C8726294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */; };
+		094C6C9526294A9C00E0FA31 /* the_query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C9426294A9C00E0FA31 /* the_query.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		094C6C6C262949E800E0FA31 /* FindingTheMostFrequentThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindingTheMostFrequentThingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094C6C70262949E800E0FA31 /* FindingTheMostFrequentThingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingTheMostFrequentThingUITests.swift; sourceTree = "<group>"; };
 		094C6C72262949E800E0FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094C6C8126294A2000E0FA31 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_the_favoriteFood_having_the_highest_frequency.swift; sourceTree = "<group>"; };
+		094C6C9426294A9C00E0FA31 /* the_query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_query.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 		094C6C52262949E300E0FA31 /* FindingTheMostFrequentThing */ = {
 			isa = PBXGroup;
 			children = (
+				094C6C8126294A2000E0FA31 /* Contact.swift */,
+				094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */,
 				094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */,
+				094C6C9426294A9C00E0FA31 /* the_query.swift */,
 				094C6C55262949E300E0FA31 /* ContentView.swift */,
 				094C6C57262949E800E0FA31 /* Assets.xcassets */,
 				094C6C5C262949E800E0FA31 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094C6C8226294A2000E0FA31 /* Contact.swift in Sources */,
+				094C6C8726294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift in Sources */,
 				094C6C56262949E300E0FA31 /* ContentView.swift in Sources */,
+				094C6C9526294A9C00E0FA31 /* the_query.swift in Sources */,
 				094C6C54262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
