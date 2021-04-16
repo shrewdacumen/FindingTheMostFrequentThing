@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		09196D66262953AB00E02FFA /* protocol FavoredFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol FavoredFood.swift"; sourceTree = "<group>"; };
+		09196D6B2629562B00E02FFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		094C6C50262949E300E0FA31 /* FindingTheMostFrequentThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingTheMostFrequentThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingTheMostFrequentThingApp.swift; sourceTree = "<group>"; };
 		094C6C55262949E300E0FA31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		094C6C47262949E300E0FA31 = {
 			isa = PBXGroup;
 			children = (
+				09196D6B2629562B00E02FFA /* README.md */,
 				094C6C52262949E300E0FA31 /* FindingTheMostFrequentThing */,
 				094C6C64262949E800E0FA31 /* FindingTheMostFrequentThingTests */,
 				094C6C6F262949E800E0FA31 /* FindingTheMostFrequentThingUITests */,
