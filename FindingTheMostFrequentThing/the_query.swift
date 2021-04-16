@@ -38,11 +38,11 @@ func the_query() {
 
   let the_answerPair_to_the_food_having_highest_freq_v1 = find_the_favoriteFood_having_the_highest_frequency_v1(fromContacts: contacts)
   
-  print("The favorite food having the highest frequency = \(the_answerPair_to_the_food_having_highest_freq_v1.favorite_food) and its frequency = \(the_answerPair_to_the_food_having_highest_freq_v1.frequency)")
+  print("The favorite food having the highest frequency v1 = \(the_answerPair_to_the_food_having_highest_freq_v1.favorite_food) and its frequency = \(the_answerPair_to_the_food_having_highest_freq_v1.frequency)")
 
   let the_answerPair_to_the_food_having_highest_freq_v2 = find_the_favoriteFood_having_the_highest_frequency_v2(fromContacts: contacts)
   
-  print("The favorite food having the highest frequency = \(the_answerPair_to_the_food_having_highest_freq_v2.favorite_food) and its frequency = \(the_answerPair_to_the_food_having_highest_freq_v2.frequency)")
+  print("The favorite food having the highest frequency v2 = \(the_answerPair_to_the_food_having_highest_freq_v2.favorite_food) and its frequency = \(the_answerPair_to_the_food_having_highest_freq_v2.frequency)")
 
   
 }
