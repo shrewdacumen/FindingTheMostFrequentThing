@@ -16,7 +16,10 @@ func the_query() -> some View {
   let crossReference_v1 = Dictionary(grouping: contacts, by: { $0.favorite_food })
 
   let crossReference_v2 = contacts.reduce(into: [String : [Contact]]()) {
-      $0[$1.favorite_food, default: []].append($1)
+    
+    $0[$1.favorite_food, default: []].append($1)
+    
+    /// The following won't append but reset to the new [$1]
     //  $0[$1.favorite_food, default: []] = [$1]
   }
 

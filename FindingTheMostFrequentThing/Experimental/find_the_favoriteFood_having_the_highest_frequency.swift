@@ -32,6 +32,7 @@ func find_the_favoriteFood_having_the_highest_frequency_v2<T: FavoredFood>(fromC
   for item in food_list {
     
     //      counts[item] = (counts[item] ?? 0) + 1
+    /// The following is better than the above.
     counts[item, default: 0] += 1
   }
   
