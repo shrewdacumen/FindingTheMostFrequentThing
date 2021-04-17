@@ -84,6 +84,7 @@
 		09196D6F26295A9400E02FFA /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				094C6C9426294A9C00E0FA31 /* the_query.swift */,
 				094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */,
 				094C6C55262949E300E0FA31 /* ContentView.swift */,
 			);
@@ -95,7 +96,6 @@
 			children = (
 				09196D66262953AB00E02FFA /* protocol FavoredFood.swift */,
 				094C6C8126294A2000E0FA31 /* Contact.swift */,
-				094C6C9426294A9C00E0FA31 /* the_query.swift */,
 				094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */,
 			);
 			path = Experimental;
