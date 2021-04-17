@@ -14,7 +14,7 @@ struct ContentView: View {
       the_query()
       
       /// the SwiftUI here is doing nothing.
-      return Text("FindingTheMostFrequentThing is here!")
+      Text("FindingTheMostFrequentThing is here!")
             .padding()
     }
 }

@@ -5,10 +5,12 @@
 //  Created by sungwook on 4/16/21.
 //
 
-import Foundation
+import SwiftUI
 
 /// the log itself.
-func the_query() {
+/// I tried to make the function conforming to `@functionBuilder` or the protocol View
+/// which is the feature of `the Swift 5.1`, enabling `closures with multiple expressions`
+func the_query() -> some View {
   
   
   let crossReference_v1 = Dictionary(grouping: contacts, by: { $0.favorite_food })
@@ -46,4 +48,5 @@ func the_query() {
   print("The favorite food having the highest frequency v2 = \(the_answerPair_to_the_food_having_highest_freq_v2.favorite_food) and its frequency = \(the_answerPair_to_the_food_having_highest_freq_v2.frequency)")
 
   
+  return EmptyView()
 }
