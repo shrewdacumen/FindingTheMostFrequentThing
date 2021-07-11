@@ -95,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				09657DB7269AC5660077E027 /* TheQueryResultView.swift */,
-				09657DB5269AC2550077E027 /* Array.swift */,
 				094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */,
 				094C6C55262949E300E0FA31 /* ContentView.swift */,
 				09657DBD269ADA4F0077E027 /* MultilineTextField.swift */,
@@ -107,6 +106,7 @@
 		09196D7326295AAD00E02FFA /* Experimental */ = {
 			isa = PBXGroup;
 			children = (
+				09657DB5269AC2550077E027 /* Array.swift */,
 				09196D66262953AB00E02FFA /* protocol FavoredFood.swift */,
 				094C6C8126294A2000E0FA31 /* Contact.swift */,
 				094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */,
