@@ -57,4 +57,7 @@ func find_the_favoriteFood_having_the_highest_frequency_v2<T: FavoredFood>(fromC
   return (favorite_food: key_found!, frequency: value_found!)
 }
 
-
+func getting_max<Root, Value: Comparable>(fromContacts contacts: [Root], keyPath: KeyPath<Root, Value>) -> Value? {
+  
+  return contacts.max(keyPath: keyPath)
+}

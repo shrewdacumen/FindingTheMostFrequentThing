@@ -16,7 +16,12 @@
 		094C6C71262949E800E0FA31 /* FindingTheMostFrequentThingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C70262949E800E0FA31 /* FindingTheMostFrequentThingUITests.swift */; };
 		094C6C8226294A2000E0FA31 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C8126294A2000E0FA31 /* Contact.swift */; };
 		094C6C8726294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */; };
-		094C6C9526294A9C00E0FA31 /* the_query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094C6C9426294A9C00E0FA31 /* the_query.swift */; };
+		09657DB6269AC2550077E027 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DB5269AC2550077E027 /* Array.swift */; };
+		09657DB8269AC5660077E027 /* TheQueryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DB7269AC5660077E027 /* TheQueryResultView.swift */; };
+		09657DBA269ACDDA0077E027 /* the_result_strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DB9269ACDDA0077E027 /* the_result_strings.swift */; };
+		09657DBC269AD9EE0077E027 /* ResultObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DBB269AD9EE0077E027 /* ResultObservable.swift */; };
+		09657DBE269ADA4F0077E027 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DBD269ADA4F0077E027 /* MultilineTextField.swift */; };
+		09657DC0269ADEDB0077E027 /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657DBF269ADEDB0077E027 /* MultilineTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +58,12 @@
 		094C6C72262949E800E0FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094C6C8126294A2000E0FA31 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_the_favoriteFood_having_the_highest_frequency.swift; sourceTree = "<group>"; };
-		094C6C9426294A9C00E0FA31 /* the_query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_query.swift; sourceTree = "<group>"; };
+		09657DB5269AC2550077E027 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Array.swift; path = FindingTheMostFrequentThing/Experimental/Array.swift; sourceTree = SOURCE_ROOT; };
+		09657DB7269AC5660077E027 /* TheQueryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TheQueryResultView.swift; path = FindingTheMostFrequentThing/Experimental/TheQueryResultView.swift; sourceTree = SOURCE_ROOT; };
+		09657DB9269ACDDA0077E027 /* the_result_strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_result_strings.swift; sourceTree = "<group>"; };
+		09657DBB269AD9EE0077E027 /* ResultObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultObservable.swift; sourceTree = "<group>"; };
+		09657DBD269ADA4F0077E027 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		09657DBF269ADEDB0077E027 /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +94,12 @@
 		09196D6F26295A9400E02FFA /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				094C6C9426294A9C00E0FA31 /* the_query.swift */,
+				09657DB7269AC5660077E027 /* TheQueryResultView.swift */,
+				09657DB5269AC2550077E027 /* Array.swift */,
 				094C6C53262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift */,
 				094C6C55262949E300E0FA31 /* ContentView.swift */,
+				09657DBD269ADA4F0077E027 /* MultilineTextField.swift */,
+				09657DBF269ADEDB0077E027 /* MultilineTextView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -97,6 +110,8 @@
 				09196D66262953AB00E02FFA /* protocol FavoredFood.swift */,
 				094C6C8126294A2000E0FA31 /* Contact.swift */,
 				094C6C8626294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift */,
+				09657DB9269ACDDA0077E027 /* the_result_strings.swift */,
+				09657DBB269AD9EE0077E027 /* ResultObservable.swift */,
 			);
 			path = Experimental;
 			sourceTree = "<group>";
@@ -291,9 +306,14 @@
 			files = (
 				094C6C8226294A2000E0FA31 /* Contact.swift in Sources */,
 				094C6C8726294A5200E0FA31 /* find_the_favoriteFood_having_the_highest_frequency.swift in Sources */,
+				09657DB6269AC2550077E027 /* Array.swift in Sources */,
+				09657DC0269ADEDB0077E027 /* MultilineTextView.swift in Sources */,
+				09657DBC269AD9EE0077E027 /* ResultObservable.swift in Sources */,
 				09196D67262953AB00E02FFA /* protocol FavoredFood.swift in Sources */,
+				09657DBE269ADA4F0077E027 /* MultilineTextField.swift in Sources */,
+				09657DBA269ACDDA0077E027 /* the_result_strings.swift in Sources */,
+				09657DB8269AC5660077E027 /* TheQueryResultView.swift in Sources */,
 				094C6C56262949E300E0FA31 /* ContentView.swift in Sources */,
-				094C6C9526294A9C00E0FA31 /* the_query.swift in Sources */,
 				094C6C54262949E300E0FA31 /* FindingTheMostFrequentThingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

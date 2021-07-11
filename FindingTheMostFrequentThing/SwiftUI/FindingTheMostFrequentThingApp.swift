@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct FindingTheMostFrequentThingApp: App {
+  @StateObject var the_result = the_result_strings()
+  
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(the_result: the_result)
         }
     }
 }

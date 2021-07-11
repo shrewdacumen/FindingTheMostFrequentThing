@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Contact: FavoredFood {
+struct Contact: Identifiable, FavoredFood {
   
+  let id = UUID()
   let name: String
   let favorite_food: String
 }
@@ -32,4 +33,15 @@ let contacts = [
   Contact(name: "Jonny",    favorite_food: "pizza"),
   Contact(name: "Tim",     favorite_food: "curry"),
   Contact(name: "Scott",     favorite_food: "curry"),
+  Contact(name: "Tim Cook",    favorite_food: "pizza"),
+  Contact(name: "Ellon Musk",     favorite_food: "curry"),
+  Contact(name: "Steve Jobs",   favorite_food: "pizza"),
+  Contact(name: "Jonny Depp",    favorite_food: "pizza"),
+  Contact(name: "Kingston",   favorite_food: "curry"),
+  Contact(name: "Micky",    favorite_food: "pizza"),
+  Contact(name: "Starbucks",    favorite_food: "pizza"),
+  Contact(name: "Two Bucks",    favorite_food: "pizza"),
+  Contact(name: "Few dollars more",     favorite_food: "curry"),
+  Contact(name: "A great whale",     favorite_food: "curry"),
+  
 ]

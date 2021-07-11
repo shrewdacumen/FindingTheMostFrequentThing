@@ -8,19 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-      
-      /// just printing the log
-      the_query()
-      
-      /// the SwiftUI here is doing nothing.
-      Text("FindingTheMostFrequentThing is here!")
-            .padding()
-    }
+  
+  @State var the_result: ResultObservable
+  
+  var body: some View {
+    
+    /// just printing the log
+    TheQueryResultView(result: $the_result)
+    //        .onAppear {
+    //
+    //          the_result = the_result_strings()
+    //        }
+    
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(the_result: the_result_strings())
     }
 }
